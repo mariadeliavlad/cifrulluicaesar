@@ -1,0 +1,38 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+.container
+{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px palevioletred;
+    width: 50%;
+    text-align: center;
+    top: 50%;
+}
+h1,h2{
+    color: violet;
+}
+input, button
+{
+    margin:10px 5px;
+    padding: 10px;
+    width:95%;
+}
+button{
+    background-color: #FFCEF2;
+    color: aliceblue;
+    cursor: grab;
+}
+button:hover{
+    background-color: #F9A5E2;
+}
+p{
+    font-size: 1.2em;
+
+}
